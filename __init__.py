@@ -1,4 +1,3 @@
-from ctypes import alignment
 from tkinter import *
 import pyrebase as pybase
 from tkinter import messagebox, ttk
