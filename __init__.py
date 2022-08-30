@@ -129,7 +129,7 @@ class Main:
         self.Student_Table["show"] = "headings"
 
         # Table Location
-        self.Student_Table.pack(fill="both", expand=1, alignment=CENTER)
+        self.Student_Table.pack(fill="both", expand=1)
 
         # Binding the Button
         self.Student_Table.bind("<ButtonRelease-1>", self.get_cursor)
